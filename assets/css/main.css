@@ -1,3 +1,5 @@
+/* copery brown 893108, dark red: #7A2323, bright red #b52222, new red:a83232, old pale pink for aside text f3eae6 */
+
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 
@@ -1574,7 +1576,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #8D566D !important;
+			color: #a83232 !important;
 		}
 
 	strong, b {
@@ -1726,7 +1728,7 @@
 	}
 
 	header.major h2 {
-		color: #7a2323;
+		color: #a83232;
 		font-size: 3.5em;
 	}
 
@@ -1789,7 +1791,7 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #7a2323;
+			border-color: #a83232;
 		}
 
 	.select-wrapper {
@@ -1899,7 +1901,7 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #7a2323;
+			border-color: #a83232;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2020,7 +2022,7 @@
 			}
 
 		.image.avatar {
-			border-radius: 100%;
+			/* border-radius: 90%; */
 			overflow: hidden;
 		}
 
@@ -2093,7 +2095,7 @@
 				}
 
 				ul.feature-icons li:before {
-					background: #7a2323;
+					background: #a83232;
 					border-radius: 100%;
 					color: #ffffff;
 					display: block;
@@ -2380,7 +2382,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #8D566D;
+			background-color: #a83232;
 			color: #ffffff !important;
 		}
 
@@ -2462,8 +2464,8 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #893108 ;
-		color: #f3eae6;
+		background: #a83232 ; /* bright red */
+		color: #f7eaea; /* pale pink */
 		height: 100%;
 		overflow-y: auto;
 		position: fixed;
@@ -2551,7 +2553,7 @@
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #8D566D;
+					border-top: solid 2px #a83232; /* bright red */
 					display: block;
 					padding: 0;
 				}
@@ -2570,7 +2572,7 @@
 
 						#header > nav ul li a.active {
 							background: #fff;
-							color: #8D566D !important;
+							color: #a83232 !important;
 						}
 
 					#header > nav ul li:first-child {
@@ -2601,7 +2603,7 @@
 /* One */
 
 	#one:before {
-		background-image: url("../../images/Sunset.jpg");
+		background-image: url("../../images/Patio.jpg");
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -2849,7 +2851,7 @@
 					}
 
 					#titleBar .toggle:before {
-						background: #8D566D;
+						background: #a83232;
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
