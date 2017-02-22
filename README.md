@@ -1,2 +1,1 @@
-# colleenpurcell.github.io
-personal portfolio
+Personal website. www.colleenpurcell.com
